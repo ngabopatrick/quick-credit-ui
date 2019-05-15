@@ -123,6 +123,10 @@ html {
 main {
     flex-grow: 1;
     flex-shrink: 0;
+   height: 40vh;
+  }
+  article{
+    flex: 1;
   }
   .main-content {
     text-align: center;
@@ -280,6 +284,7 @@ input[type="password"] {
   display: -webkit-flex;
   display: flex;
   flex-shrink: 0;
+  height: 80vh;
 }
 .sidebar {
   flex: 1;
@@ -344,7 +349,7 @@ padding: 10px;
   background-color: #fff;
   padding: 3% 3%;
   text-align: center;
-  min-height: 400px;
+  min-height: 300px;
 }
 .form-content{
   border: 1px solid #ddd;
@@ -420,6 +425,7 @@ border: 1px solid #ddd;
     .side-content {
       -webkit-flex-direction: column;
       flex-direction: column;
+      height: 60%;
     }
   }
   @media all and (max-width: 800px) {
